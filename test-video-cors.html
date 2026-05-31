@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html><body>
+<video id="v" crossorigin="anonymous" src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEUxPVqGrDryKgC80Ddj0Ax2kWQjZZCdAACaCcAAkjl2VSp34PaSFwq2DsE.mp4" autoplay muted></video>
+<script>
+const v = document.getElementById('v');
+v.onerror = () => console.log('Video load error');
+v.onloadeddata = () => console.log('Video loaded');
+</script>
+</body></html>
